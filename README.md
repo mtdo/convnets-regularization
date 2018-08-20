@@ -11,14 +11,14 @@ The dataset used is the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifa
 ![Example of a CIFAR-10 image](doc/images/example_image.png)
 
 ## Tested regularization methods
-The regularization methods used in this project are incrementally added to the network architecture to determine how much they increase the network generalization. The used regularization methods are:
+The regularization methods used in this project are incrementally added to the network architecture to determine how much they improve the network generalization. The used regularization methods are:
 * ##### Batch normalization
 * ##### Dropout
 * ##### Data augmentation
 
 
 ## Usage ##
-The code is contained in jupyter notebooks and to use the notebooks a jupyter server instance should be first launched with the following command
+The source code is contained in jupyter notebooks and a jupyter server instance should be first launched with the following command:
 ```sh
 $ jupyter notebook
 ```
